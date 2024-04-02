@@ -1,0 +1,137 @@
+@media only screen and (max-width: 768px) {
+  .checkbtn {
+    display: block;
+    margin-left: 20px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    padding: 0px !important;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    display: none;
+  }
+  nav ul li {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 80px;
+  }
+  .search {
+    display: none;
+  }
+  .cart {
+    display: none;
+  }
+  /*-----------------Sec 1------------------*/
+  #sec-1 {
+    padding: 20px 0px;
+    width: 500px !important;
+  }
+  /*-----------------Sec 2------------------*/
+  #sec-2 {
+    padding: 40px 0px !important;
+  }
+  .container {
+    flex-direction: column;
+    margin-left: 40px !important;
+  }
+  .text {
+    width: 95%;
+  }
+  .buttons {
+    width: 120% !important;
+  }
+  .button {
+    width: 100%;
+    margin-left: 40px !important;
+  }
+  .text-6 {
+    margin-left: 60px !important;
+  }
+  .text-6 p {
+    width: 100% !important;
+  }
+  .center-2 {
+    margin-left: 80px !important;
+  }
+  .cards-row-1 {
+    flex-direction: column;
+  }
+  .cards-row-2 {
+    flex-direction: column;
+  }
+  .cards-row-3 {
+    flex-direction: column;
+  }
+  .cards {
+    margin: 0px !important;
+    margin-left: 70px !important;
+  }
+  /*-----------------Sec 3------------------*/
+
+  .subscribe {
+    margin: 0px 0px !important;
+    margin-top: 0px !important;
+    display: block;
+    justify-content: center !important;
+    width: 500px;
+    height: 400px;
+    padding: 0px 0px !important;
+  }
+  .subscribe p {
+    text-align: center;
+    padding: 0px 0px !important;
+    padding-top: 60px !important;
+    width: 500px !important;
+  }
+  .subscribe input {
+    margin: 20px 100px !important;
+    justify-content: center !important;
+  }
+  .subscribe input:last-of-type {
+    justify-content: center !important;
+    margin: 10px 140px !important;
+  }
+
+  /* -------------Footer---------------*/
+  .all-footer {
+    flex-direction: column;
+  }
+  .all-footer img {
+    display: none;
+  }
+  img.footer {
+    display: block;
+    width: 380px !important;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .box-10 {
+    width: 480px;
+    margin-left: 100px;
+    align-items: center !important;
+  }
+  .box-11 {
+    width: 460px !important;
+  }
+  .box-11 p {
+    margin-left: 40px;
+  }
+  .bottom-logo {
+    margin-left: 0px !important;
+  }
+  footer h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .box-12 {
+    margin-left: 100px;
+  }
+  .bottom p {
+    margin-left: 60px;
+  }
+}
